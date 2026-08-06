@@ -1,0 +1,40 @@
+# サイト基本情報
+title: mdx MaaS
+description: 学術機関が生成AIモデルを安全かつ効率的に活用するための推論基盤 mdx MaaS (Model as a Service) のユーザーポータルです。
+lang: ja
+timezone: Asia/Tokyo
+
+# 公開URL（GitHub Pages のプロジェクトサイト）
+url: "https://toyolabo.github.io"
+baseurl: "/mdx-maas-website"
+
+# テーマ
+theme: minima
+
+# ヘッダーのナビゲーションに表示するページ
+# （ユーザーポータルへはトップページから、チャットサービス利用案内へは
+#   ユーザーポータルの FAQ からのみ誘導するため、意図的にナビに含めない）
+header_pages:
+  - updates.md
+
+# プラグイン（GitHub Pages 標準で利用可能なもののみ）
+plugins:
+  - jekyll-feed
+  - jekyll-seo-tag
+  - jekyll-relative-links
+
+# Markdown 内の相対リンク（例: [チャットサービス利用案内](chat.md)）を
+# 公開URLに自動変換する
+relative_links:
+  enabled: true
+
+# サイトとして公開しないファイル
+# （Jekyll 3 では exclude を指定するとデフォルト値が上書きされるため、
+#   vendor/ などローカル環境のディレクトリも明示的に除外する）
+exclude:
+  - README.md
+  - Gemfile
+  - Gemfile.lock
+  - vendor/
+  - .bundle/
+  - node_modules/

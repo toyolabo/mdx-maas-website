@@ -1,0 +1,79 @@
+---
+# minima テーマのスタイルを読み込み、日本語向けに調整する
+---
+
+@import "minima";
+
+body {
+  font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto,
+    "Hiragino Kaku Gothic ProN", "Hiragino Sans", "Noto Sans JP", Meiryo,
+    sans-serif;
+  line-height: 1.8;
+}
+
+h1, h2, h3, h4 {
+  line-height: 1.4;
+  font-weight: 600;
+}
+
+h2 {
+  margin-top: 2.2em;
+  padding-bottom: 0.3em;
+  border-bottom: 2px solid #e8e8e8;
+}
+
+h3 {
+  margin-top: 1.8em;
+}
+
+// minima 既定の blockquote はイタリック表示のため、日本語向けに解除する
+blockquote {
+  font-style: normal;
+  letter-spacing: 0;
+  font-size: inherit;
+  color: #555;
+  background: #f8f9fa;
+  border-left: 4px solid #2a7ae2;
+  padding: 12px 16px;
+}
+
+img {
+  max-width: 100%;
+  height: auto;
+}
+
+// FAQ の開閉トグル（Notion のトグルに相当）
+details {
+  margin: 12px 0;
+  padding: 10px 16px;
+  border: 1px solid #e8e8e8;
+  border-radius: 6px;
+
+  summary {
+    cursor: pointer;
+    font-weight: 600;
+
+    &:hover {
+      color: #2a7ae2;
+    }
+  }
+
+  &[open] > summary {
+    margin-bottom: 8px;
+  }
+
+  > :last-child {
+    margin-bottom: 0;
+  }
+}
+
+table {
+  display: block;
+  overflow-x: auto;
+}
+
+hr {
+  margin: 2.5em 0;
+  border: 0;
+  border-top: 1px solid #e8e8e8;
+}

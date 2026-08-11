@@ -4,9 +4,9 @@ description: 学術機関が生成AIモデルを安全かつ効率的に活用�
 lang: ja
 timezone: Asia/Tokyo
 
-# 公開URL（GitHub Pages のプロジェクトサイト）
-url: "https://toyolabo.github.io"
-baseurl: "/mdx-maas-website"
+# 公開URL（カスタムドメイン運用。baseurl はサブパス不要のため空）
+url: "https://maas.mdx1.jp"
+baseurl: ""
 
 # テーマ
 theme: minima

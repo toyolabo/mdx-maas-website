@@ -1,6 +1,6 @@
 # mdx-maas-website
 
-mdx MaaS ポータルサイトのソースです。GitHub Pages（Jekyll / minima テーマ）で公開します。
+mdx-MaaS ポータルサイトのソースです。GitHub Pages（Jekyll / minima テーマ）で公開します。
 
 公開URL: https://toyolabo.github.io/mdx-maas-website/
 
@@ -8,12 +8,12 @@ mdx MaaS ポータルサイトのソースです。GitHub Pages（Jekyll / minim
 
 | ファイル | ページ | 備考 |
 | --- | --- | --- |
-| `index.md` | mdx MaaS ポータル（トップ） | 学認ユーザー / 個別アカウントユーザーの振り分けページ |
-| `portal.md` | mdx MaaS ユーザーポータル | ナビには表示しない（トップページからリンク） |
-| `chat.md` | チャットサービス利用案内 | ナビには表示しない（ユーザーポータルの FAQ からのみリンク） |
+| `index.md` | mdx-MaaS ユーザーポータル（トップ） | サイトのルート。API の利用案内・申請手順・FAQ |
+| `chat.md` | チャットサービス利用案内 | ナビには表示しない（ユーザーポータルの FAQ からのみリンク）。「利用の前提」セクション内に学認ユーザー（東京大学・大阪大学）向けの外部ポータルへの導線あり |
 | `updates.md` | アップデート履歴 | ナビに表示 |
 
 - ナビゲーションに表示するページは `_config.yml` の `header_pages` で指定しています。
+- **ページを追加するときは、フロントマターに `description:`（検索結果に出る説明文）を必ず書いてください。** `_config.yml` にはサイト共通の `description` を置いていないため（トップページの `<title>` に連結されてしまうのを避けるため）、書き忘れると検索結果に説明文が出ません。
 - FAQ は HTML の `<details>/<summary>` による開閉トグルです（Notion のトグルに相当、JavaScript 不要）。
 - テーマ標準のフッターは `_includes/footer.html` の空ファイルで非表示にしています。
 

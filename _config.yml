@@ -1,6 +1,9 @@
 # サイト基本情報
-title: mdx MaaS
-description: 学術機関が生成AIモデルを安全かつ効率的に活用するための推論基盤 mdx MaaS (Model as a Service) のユーザーポータルです。
+title: AI推論基盤 mdx-MaaS
+# description（検索結果に出る説明文）は各ページのフロントマターで指定する。
+# ここに site.description を書くと、トップページの <title> が
+# 「AI推論基盤 mdx-MaaS | 生成AIモデルを…」のように description と連結されてしまうため
+# （jekyll-seo-tag は page.title と site.title が一致する場合に description を連結する仕様）。
 lang: ja
 timezone: Asia/Tokyo
 
@@ -12,7 +15,7 @@ baseurl: "/mdx-maas-website"
 theme: minima
 
 # ヘッダーのナビゲーションに表示するページ
-# （ユーザーポータルへはトップページから、チャットサービス利用案内へは
+# （ユーザーポータルはトップページ（index.md）そのもの、チャットサービス利用案内へは
 #   ユーザーポータルの FAQ からのみ誘導するため、意図的にナビに含めない）
 header_pages:
   - updates.md

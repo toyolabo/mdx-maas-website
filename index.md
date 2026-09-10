@@ -62,7 +62,7 @@ mdx-MaaS では、運営事務局および他のテストユーザーと連絡�
 
 参加をご希望の方は、利用申請フォームの「ユーザーコミュニティへの参加希望」で「希望します」を選択してください（申請時に選択いただくのがおすすめです）。すでに申請済みで選択されなかった方は、[問い合わせ先](#contact)までお問い合わせください。
 
-すべてのユーザーは mdx-MaaS の [利用規約](https://drive.google.com/file/d/1hcTAFn0o16ceSloBI3L_tLtZNCAjqmU0/view?usp=drive_link) 及び [個人情報保護方針](https://drive.google.com/file/d/1oYNcZLQ5Kx3ZS2WX4Vb-4KJxLqrY-k-B/view?usp=drive_link) に加え、mdx の [利用規約](https://mdx.jp/wp-content/uploads/2023/04/jp_teams-of-service_20230323.pdf) 及び [個人情報保護方針](https://mdx.jp/wp-content/uploads/2022/12/privacy-policy_20221128.pdf) に同意したものと見なします。
+すべてのユーザーは mdx-MaaS の [利用規約](https://drive.google.com/file/d/1nFq-YFyaMmRWmitiDdWiibsoq26RXfNK/view) 及び [個人情報保護方針](https://drive.google.com/file/d/1oYNcZLQ5Kx3ZS2WX4Vb-4KJxLqrY-k-B/view?usp=drive_link) に加え、mdx の [利用規約](https://mdx.jp/wp-content/uploads/2023/04/jp_teams-of-service_20230323.pdf) 及び [個人情報保護方針](https://mdx.jp/wp-content/uploads/2022/12/privacy-policy_20221128.pdf) に同意したものと見なします。
 
 ### 利用開始までの流れ {#getting-started}
 
@@ -122,7 +122,7 @@ mdx-MaaS では、運営事務局および他のテストユーザーと連絡�
 
 現在、β 版テストユーザーを募集しています。[β 版テストユーザー登録](#beta) を参照してください。
 
-すべてのユーザーは mdx-MaaS の [利用規約](https://drive.google.com/file/d/1hcTAFn0o16ceSloBI3L_tLtZNCAjqmU0/view?usp=drive_link) 及び [個人情報保護方針](https://drive.google.com/file/d/1oYNcZLQ5Kx3ZS2WX4Vb-4KJxLqrY-k-B/view?usp=drive_link) に加え、mdx の [利用規約](https://mdx.jp/wp-content/uploads/2023/04/jp_teams-of-service_20230323.pdf) 及び [個人情報保護方針](https://mdx.jp/wp-content/uploads/2022/12/privacy-policy_20221128.pdf) に同意したものと見なします。
+すべてのユーザーは mdx-MaaS の [利用規約](https://drive.google.com/file/d/1nFq-YFyaMmRWmitiDdWiibsoq26RXfNK/view) 及び [個人情報保護方針](https://drive.google.com/file/d/1oYNcZLQ5Kx3ZS2WX4Vb-4KJxLqrY-k-B/view?usp=drive_link) に加え、mdx の [利用規約](https://mdx.jp/wp-content/uploads/2023/04/jp_teams-of-service_20230323.pdf) 及び [個人情報保護方針](https://mdx.jp/wp-content/uploads/2022/12/privacy-policy_20221128.pdf) に同意したものと見なします。
 
 </details>
 

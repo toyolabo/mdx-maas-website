@@ -162,13 +162,6 @@ mdx-MaaS では、運営事務局および他のテストユーザーと連絡�
 
 </details>
 
-<details markdown="1">
-<summary>Q. プロンプトはモデルの学習に使用されますか？</summary>
-
-使用しません。
-
-</details>
-
 ---
 
 ## 問い合わせ先 {#contact}

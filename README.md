@@ -17,6 +17,12 @@ mdx-MaaS ポータルサイトのソースです。GitHub Pages（Jekyll / minim
 - FAQ は HTML の `<details>/<summary>` による開閉トグルです（Notion のトグルに相当、JavaScript 不要）。
 - テーマ標準のフッターは `_includes/footer.html` の空ファイルで非表示にしています。
 
+## 検索エンジン対応
+
+- `/sitemap.xml` は `jekyll-sitemap` プラグイン（`_config.yml` の `plugins`）が自動生成します。対象は HTML ページのみで、画像や CSS は含まれません。
+- `robots.txt` はリポジトリ直下のファイルがそのまま公開され、サイトマップの場所を検索エンジンに伝えています。`_config.yml` の `url` を変えたときは `robots.txt` の `Sitemap:` 行も合わせて変更してください。
+
+
 ## 公開手順（初回のみ）
 
 1. このリポジトリを `main` ブランチに push する

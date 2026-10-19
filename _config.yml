@@ -25,6 +25,7 @@ plugins:
   - jekyll-feed
   - jekyll-seo-tag
   - jekyll-relative-links
+  - jekyll-sitemap   # 検索エンジン向けに /sitemap.xml を自動生成（README「検索エンジン対応」参照）
 
 # Markdown 内の相対リンク（例: [チャットサービス利用案内](chat.md)）を
 # 公開URLに自動変換する

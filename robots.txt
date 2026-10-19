@@ -1,0 +1,4 @@
+User-agent: *
+Allow: /
+
+Sitemap: https://maas.mdx1.jp/sitemap.xml

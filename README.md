@@ -2,7 +2,7 @@
 
 mdx-MaaS ポータルサイトのソースです。GitHub Pages（Jekyll / minima テーマ）で公開します。
 
-公開URL: https://toyolabo.github.io/mdx-maas-website/
+公開URL: https://maas.mdx1.jp/ （旧 URL https://toyolabo.github.io/mdx-maas-website/ は 301 で https://maas.mdx1.jp/ に転送されます）
 
 ## ページ構成
 
@@ -21,6 +21,7 @@ mdx-MaaS ポータルサイトのソースです。GitHub Pages（Jekyll / minim
 
 - `/sitemap.xml` は `jekyll-sitemap` プラグイン（`_config.yml` の `plugins`）が自動生成します。対象は HTML ページのみで、画像や CSS は含まれません。
 - `robots.txt` はリポジトリ直下のファイルがそのまま公開され、サイトマップの場所を検索エンジンに伝えています。`_config.yml` の `url` を変えたときは `robots.txt` の `Sitemap:` 行も合わせて変更してください。
+- 各ページのフロントマターの `last_modified_at`（最終更新日）が `sitemap.xml` の `<lastmod>` になります。**本文を更新したら `last_modified_at` も同じ日付に更新してください。** Google が「内容が変わった」と判断して再クロールする手がかりになります。
 
 
 ## 公開手順（初回のみ）
@@ -29,6 +30,7 @@ mdx-MaaS ポータルサイトのソースです。GitHub Pages（Jekyll / minim
 2. GitHub のリポジトリページで **Settings → Pages** を開く
 3. **Source** で「**Deploy from a branch**」を選択し、Branch に「**main**」「**/ (root)**」を指定して **Save**
 4. 数分待つと https://toyolabo.github.io/mdx-maas-website/ で公開される（ビルド状況はリポジトリの Actions タブで確認可能）
+   - 現在はカスタムドメインを設定済み（Settings → Pages → Custom domain = `maas.mdx1.jp`、リポジトリ直下の `CNAME`）のため、実際の公開先は https://maas.mdx1.jp/ です。上記の github.io URL はそこへ 301 で転送されます。
 
 ## 公開URLの変更について
 

@@ -2,6 +2,7 @@
 layout: page
 title: アップデート履歴
 description: mdx-MaaS のサービスおよび本サイトの更新情報を掲載します。
+last_modified_at: 2026-10-31
 ---
 
 mdx-MaaS のサービスおよび本サイトの更新情報を掲載します。

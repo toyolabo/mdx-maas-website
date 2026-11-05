@@ -2,6 +2,7 @@
 layout: home
 title: AI推論基盤 mdx-MaaS
 description: 生成AIモデルを安全かつ効率的に活用するための推論基盤 mdx-MaaS のユーザーポータルです。
+last_modified_at: 2026-10-31
 ---
 
 ## mdx-MaaSについて {#about}

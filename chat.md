@@ -2,6 +2,7 @@
 layout: page
 title: チャットサービス利用案内
 description: mdx-MaaS のチャットサービス（GUI）の利用方法・申請手順のご案内です。
+last_modified_at: 2026-10-31
 ---
 
 このページは、**mdx-MaaS の チャットサービス（GUI）**を利用したい方向けの案内です。 Web ブラウザーから対話的に生成AIモデルを利用できるチャット UI を提供しています。

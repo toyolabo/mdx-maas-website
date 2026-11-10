@@ -2,7 +2,7 @@
 layout: page
 title: チャットサービス利用案内
 description: mdx-MaaS のチャットサービス（GUI）の利用方法・申請手順のご案内です。
-last_modified_at: 2026-10-31
+last_modified_at: 2026-11-10
 ---
 
 このページは、**mdx-MaaS の チャットサービス（GUI）**を利用したい方向けの案内です。 Web ブラウザーから対話的に生成AIモデルを利用できるチャット UI を提供しています。
@@ -33,7 +33,14 @@ mdx-MaaS の β 版のテストユーザーを募集します。テスト期間�
 
 ### 利用開始までの流れ {#getting-started}
 
-![利用開始までの流れ](assets/images/chat.png)
+![チャットサービス利用開始までの流れ（mdx Local ID の申請と承認 → 申請フォーム記入 → 事務局が確認 → アカウント発行と API キー送付）](assets/images/chat.png)
+
+1. 利用者: [mdx Local ID 申請ページ](https://mdx.jp/mdx1/form_page/local-id_application) から mdx Local ID を申請する
+2. mdx 本体事務局: mdx Local ID を承認する
+3. 利用者: [チャットサービス利用申請フォーム](#application-form) を記入する
+4. mdx-MaaS 運営事務局: 申請内容を確認する
+5. mdx-MaaS 運営事務局: アカウント発行を連絡し、API キーをメールで送付する
+6. 利用者: チャットサービスと API の利用を開始する
 
 ### 申請フォーム {#application-form}
 

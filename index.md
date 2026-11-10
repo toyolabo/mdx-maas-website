@@ -2,7 +2,7 @@
 layout: home
 title: AI推論基盤 mdx-MaaS
 description: 生成AIモデルを安全かつ効率的に活用するための推論基盤 mdx-MaaS のユーザーポータルです。
-last_modified_at: 2026-10-31
+last_modified_at: 2026-11-10
 ---
 
 ## mdx-MaaSについて {#about}
@@ -67,7 +67,12 @@ mdx-MaaS では、運営事務局および他のテストユーザーと連絡�
 
 ### 利用開始までの流れ {#getting-started}
 
-![利用開始までの流れ](assets/images/api.png)
+![API 利用開始までの流れ（申請フォーム記入 → 事務局が確認 → API キーをメール送付）](assets/images/api.png)
+
+1. 利用者: [API エンドポイント利用申請フォーム](#application-form) を記入する
+2. mdx-MaaS 運営事務局: 申請内容を確認する
+3. mdx-MaaS 運営事務局: API キーをメールで送付する
+4. 利用者: API の利用を開始する
 
 ---
 

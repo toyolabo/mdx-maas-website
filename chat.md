@@ -2,7 +2,7 @@
 layout: page
 title: チャットサービス利用案内
 description: mdx-MaaS のチャットサービス（GUI）の利用方法・申請手順のご案内です。
-last_modified_at: 2026-11-10
+last_modified_at: 2026-11-19
 ---
 
 このページは、**mdx-MaaS の チャットサービス（GUI）**を利用したい方向けの案内です。 Web ブラウザーから対話的に生成AIモデルを利用できるチャット UI を提供しています。
@@ -67,7 +67,7 @@ mdx Local ID の取得（承認）後に、以下のフォームへお進みく�
 
 利用可能なモデルは以下のリストを参照してください。
 
-- [利用可能モデル一覧（Google スプレッドシート）](https://docs.google.com/spreadsheets/d/18eMqI3kPDjVVBLRdyHSuinkJ-6ZVQ-Uh-8BWXHNBO0g/edit?gid=0#gid=0)
+- [利用可能なモデル一覧](models.md)
 
 ---
 

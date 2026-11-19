@@ -2,7 +2,7 @@
 layout: home
 title: mdx-MaaS ユーザーポータル
 description: 生成AIモデルを安全かつ効率的に活用するための推論基盤 mdx-MaaS のユーザーポータルです。
-last_modified_at: 2026-11-16
+last_modified_at: 2026-11-19
 ---
 
 ## mdx-MaaSについて {#about}
@@ -102,9 +102,9 @@ client = OpenAI(
 )
 ```
 
-- 公式ドキュメント (GitHub)
+- 使い方のドキュメント
 
-  <https://github.com/mdx-jp/mdx-maas-docs/blob/main/chat_completions_api_document.md>
+  [即時応答 API（Chat Completions API）の使い方](docs/chat-completions.md)
 
 - 使い方の解説記事 (Zenn)
 
@@ -116,9 +116,17 @@ client = OpenAI(
 
 複数のリクエストをまとめてファイルとして投入し、バックグラウンドで非同期処理します。大量テキストの分類・翻訳・要約など、まとめて処理したい用途に適しています。処理完了後に結果ファイルを取得する形で利用します。しばらく利用がなかったモデルでは、処理の開始までに 15〜20 分程度かかることがあります。
 
-- 公式ドキュメント (GitHub)
+- 使い方のドキュメント
 
-  <https://github.com/mdx-jp/mdx-maas-docs/blob/main/batch_inference_api_document.md>
+  [Batch API（バッチ推論）の使い方](docs/batch.md)
+
+### 使用量の確認 {#usage-api}
+
+API キーごとのトークンの使用量・上限・残量を、即時応答 API と Batch API のそれぞれについて確認できます。
+
+- 使い方のドキュメント
+
+  [使用量確認 API（Usage API）の使い方](docs/usage.md)
 
 > 環境設定やプログラムの作成など必要な作業はすべてユーザー自身が行うものとし、個別のサポートは行いません。また、公平な利用のため、利用状況により 1 ユーザーあたりのトークン数やコール回数に一定のルールを設ける可能性があります。
 
@@ -126,9 +134,9 @@ client = OpenAI(
 
 ## 現在利用可能なモデル {#models}
 
-利用可能なモデルは以下のリストを参照してください。
+現在、以下のモデルを利用できます。モデルごとの説明は [利用可能なモデル一覧](models.md) をご覧ください。
 
-- [利用可能モデル一覧（Google スプレッドシート）](https://docs.google.com/spreadsheets/d/18eMqI3kPDjVVBLRdyHSuinkJ-6ZVQ-Uh-8BWXHNBO0g/edit?gid=0#gid=0)
+{% include models-table.html %}
 
 ### 利用したいモデルのリクエストについて {#model-requests}
 

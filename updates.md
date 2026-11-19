@@ -2,7 +2,7 @@
 layout: page
 title: アップデート履歴
 description: mdx-MaaS のサービスおよび本サイトの更新情報を掲載します。
-last_modified_at: 2026-11-10
+last_modified_at: 2026-11-19
 ---
 
 mdx-MaaS のサービスおよび本サイトの更新情報を掲載します。
@@ -13,6 +13,11 @@ mdx-MaaS のサービスおよび本サイトの更新情報を掲載します�
   ## YYYY年M月D日
   - 更新内容を書く
 -->
+
+## 2026年11月19日
+
+- API の使い方のドキュメント（[即時応答 API](docs/chat-completions.md)、[Batch API](docs/batch.md)、[使用量確認 API](docs/usage.md)）を、本サイトで公開しました。
+- 利用可能なモデルの一覧を、Google スプレッドシートから本サイトの [利用可能なモデル一覧](models.md) に移しました。
 
 ## 2026年10月31日
 

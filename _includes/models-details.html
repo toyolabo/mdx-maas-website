@@ -1,0 +1,17 @@
+<!-- モデルごとの説明（データは _data/models.yml）。models.md で使う -->
+{%- for m in site.data.models %}
+{%- capture apis -%}
+{%- if m.chat and m.batch -%}即時応答 API、Batch API
+{%- elsif m.chat -%}即時応答 API
+{%- elsif m.batch -%}Batch API
+{%- else -%}-
+{%- endif -%}
+{%- endcapture %}
+<h3 id="{{ m.name | slugify }}">{{ m.name | escape }}</h3>
+<p>{{ m.description | strip | escape | newline_to_br }}</p>
+<ul>
+  <li>model パラメータに指定する値: <code>{{ m.name | escape }}</code></li>
+  <li>対応 API: {{ apis }}</li>
+  <li>起動待ち: {% if m.cold_start %}あり（しばらく利用がなかった場合、15〜20 分程度かかります）{% else %}なし{% endif %}</li>
+</ul>
+{%- endfor %}

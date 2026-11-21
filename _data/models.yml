@@ -61,6 +61,20 @@
   batch: true
   cold_start: true
 
+- name: Qwen/Qwen3.8-27B
+  description: |
+    Alibaba Qwenチームが開発した約27Bパラメータのマルチモーダル言語モデル（Qwen3.6-27B の後継）。テキスト・画像・動画入力とツール呼び出しに対応し、Thinkingモードによる高度な推論が可能。
+  chat: true
+  batch: false
+  cold_start: true
+
+- name: Qwen/Qwen3.8-27B-FP8
+  description: |
+    上記 Qwen3.8-27B を FP8 に量子化したもの（精度はほぼ同等）。テキスト・画像・動画入力とツール呼び出しに対応。
+  chat: true
+  batch: false
+  cold_start: true
+
 - name: deepseek-ai/DeepSeek-OCR-2
   description: DeepSeekが開発した約3BパラメータのOCR特化ビジョン言語モデル。画像からのテキスト抽出・Markdown変換を得意とする。
   chat: true

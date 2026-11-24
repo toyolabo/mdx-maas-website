@@ -2,7 +2,7 @@
 layout: home
 title: mdx-MaaS ユーザーポータル
 description: 生成AIモデルを安全かつ効率的に活用するための推論基盤 mdx-MaaS のユーザーポータルです。
-last_modified_at: 2026-11-21
+last_modified_at: 2026-11-24
 ---
 
 ## mdx-MaaSについて {#about}
@@ -10,6 +10,8 @@ last_modified_at: 2026-11-21
 研究や教育の場における生成AIモデルの活用ニーズが高まっています。一方で、学術機関において実際に運用するには、一般の商用サービスを利用するには入力データやプロンプトについてのリスクがあり、オープンソースモデルを利用するにはそれを動作させる計算資源の確保が難しく、いずれもハードルが高いのが現状です。
 
 そこで、学術機関が生成AIモデルを安全かつ効率的に活用するための推論基盤として **mdx-MaaS (Model as a Service)** を構築しました。mdx-MaaS では、研究・開発で柔軟に活用できる **API エンドポイント** を主軸に提供しています。加えて、GUI が必要な用途向けに **チャットサービス** も利用可能です。
+
+mdx-MaaS は、[東京大学大学院 情報理工学系研究科/情報基盤センター 鈴村豊太郎研究室](https://sites.google.com/view/toyolab/home) が構築・運用しています。
 
 詳細は、以下の [AXIES2025 発表資料（論文・スライド）](https://axies.secretari.jp/conf2025/) と [データ活用社会創成シンポジウム2025 発表動画](https://sites.google.com/g.ecc.u-tokyo.ac.jp/dp-sympo2025/) をご覧ください。
 

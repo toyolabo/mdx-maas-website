@@ -7,11 +7,19 @@
 {%- else -%}-
 {%- endif -%}
 {%- endcapture %}
+{%- capture context_len -%}
+{%- if m.max_context_len != m.original_context_len -%}
+{{ m.max_context_len }}トークン（モデル本来は{{ m.original_context_len }}トークン）
+{%- else -%}
+{{ m.max_context_len }}トークン
+{%- endif -%}
+{%- endcapture %}
 <h3 id="{{ m.name | slugify }}">{{ m.name | escape }}</h3>
 <p>{{ m.description | strip | escape | newline_to_br }}</p>
 <ul>
   <li>model パラメータに指定する値: <code>{{ m.name | escape }}</code></li>
   <li>対応 API: {{ apis }}</li>
-  <li>起動待ち: {% if m.cold_start %}あり（しばらく利用がなかった場合、15〜20 分程度かかります）{% else %}なし{% endif %}</li>
+  <li>最大コンテキスト長: {{ context_len }}</li>
+  <li>起動待ち: {% if m.cold_start %}あり（しばらく利用がなかった場合、15〜20分程度かかります）{% else %}なし{% endif %}</li>
 </ul>
 {%- endfor %}

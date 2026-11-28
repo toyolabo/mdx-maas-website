@@ -4,6 +4,7 @@
 {%- if m.chat and m.batch -%}即時応答 API、Batch API
 {%- elsif m.chat -%}即時応答 API
 {%- elsif m.batch -%}Batch API
+{%- elsif m.embeddings -%}埋め込み API
 {%- else -%}-
 {%- endif -%}
 {%- endcapture %}

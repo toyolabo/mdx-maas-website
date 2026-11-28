@@ -2,7 +2,7 @@
 layout: page
 title: アップデート履歴
 description: mdx-MaaS のサービスおよび本サイトの更新情報を掲載します。
-last_modified_at: 2026-11-27
+last_modified_at: 2026-11-28
 ---
 
 mdx-MaaS のサービスおよび本サイトの更新情報を掲載します。
@@ -13,6 +13,10 @@ mdx-MaaS のサービスおよび本サイトの更新情報を掲載します�
   ## YYYY年M月D日
   - 更新内容を書く
 -->
+
+## 2026年11月28日
+
+- 新しく **埋め込み API**（OpenAI 互換の Embeddings API、`POST /v1/embeddings`）と、埋め込みモデル **EmbeddingGemma 2**（`google/embeddinggemma-2`）を追加しました。テキストをベクトルに変換して、意味検索・RAG・分類などに使えます。使い方は [埋め込み API（Embeddings API）の使い方](docs/embeddings.md) を、モデルの説明は [利用可能なモデル一覧](models.md) をご覧ください。
 
 ## 2026年11月27日
 

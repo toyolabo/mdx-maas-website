@@ -18,6 +18,10 @@ mdx-MaaS のサービスおよび本サイトの更新情報を掲載します�
 
 - 新しいモデル **Qwen3-VL-8B-Instruct** を追加しました。即時応答 API とチャットサービスで利用できます。API でモデル名に `Qwen/Qwen3-VL-8B-Instruct` を指定してください。テキスト・画像・動画入力に対応しています。詳細は [利用可能なモデル一覧](models.md) と [Qwen3-VL-8B-Instruct（Hugging Face）](https://huggingface.co/Qwen/Qwen3-VL-8B-Instruct) をご覧ください。
 
+## 2026年11月27日
+
+- 学認（GakuNin）のアカウントでチャットサービスを利用する方向けの案内を、Google Sites の「学認ユーザー向けポータルサイト」から本サイトの [チャットサービス利用案内（学認ユーザー向け）](chat-gakunin.md) に移しました。
+
 ## 2026年11月21日
 
 - 新しいモデル **Qwen3.8-27B** を追加しました。即時応答 API とチャットサービスで利用できます。API でモデル名に `Qwen/Qwen3.8-27B` または `Qwen/Qwen3.8-27B-FP8`（FP8 量子化版）を指定してください。いずれもツール呼び出し（function calling）に対応しています。詳細は [利用可能なモデル一覧](models.md) と [Qwen3.8-27B（Hugging Face）](https://huggingface.co/Qwen/Qwen3.8-27B) をご覧ください。

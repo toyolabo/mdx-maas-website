@@ -17,6 +17,7 @@ mdx-MaaS のサービスおよび本サイトの更新情報を掲載します�
 ## 2026年11月28日
 
 - 新しいモデル **Qwen3-VL-8B-Instruct** を追加しました。即時応答 API とチャットサービスで利用できます。API でモデル名に `Qwen/Qwen3-VL-8B-Instruct` を指定してください。テキスト・画像・動画入力に対応しています。詳細は [利用可能なモデル一覧](models.md) と [Qwen3-VL-8B-Instruct（Hugging Face）](https://huggingface.co/Qwen/Qwen3-VL-8B-Instruct) をご覧ください。
+- 新しく **埋め込み API**（OpenAI 互換の Embeddings API、`POST /v1/embeddings`）と、埋め込みモデル **EmbeddingGemma 2**（`google/embeddinggemma-2`）を追加しました。テキストをベクトルに変換して、意味検索・RAG・分類などに使えます。使い方は [埋め込み API（Embeddings API）の使い方](docs/embeddings.md) を、モデルの説明は [利用可能なモデル一覧](models.md) をご覧ください。
 
 ## 2026年11月27日
 

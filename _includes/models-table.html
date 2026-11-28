@@ -5,6 +5,7 @@
       <th>モデル名</th>
       <th>即時応答 API</th>
       <th>Batch API</th>
+      <th>埋め込み API</th>
       <th>最大コンテキスト長（トークン）</th>
       <th>起動待ち ※</th>
     </tr>
@@ -15,10 +16,11 @@
       <td><a href="{{ '/models.html' | relative_url }}#{{ m.name | slugify }}"><code>{{ m.name | escape }}</code></a></td>
       <td>{% if m.chat %}〇{% else %}-{% endif %}</td>
       <td>{% if m.batch %}〇{% else %}-{% endif %}</td>
+      <td>{% if m.embeddings %}〇{% else %}-{% endif %}</td>
       <td>{% if m.max_context_len != m.original_context_len %}{{ m.max_context_len }}（モデル本来は{{ m.original_context_len }}）{% else %}{{ m.max_context_len }}{% endif %}</td>
       <td>{% if m.cold_start %}あり{% else %}なし{% endif %}</td>
     </tr>
 {%- endfor %}
   </tbody>
 </table>
-<p>※ アクセスがないときはモデルと計算ノードを停止しているため、しばらく利用がなかったモデルは、即時応答 API では最初の応答まで、Batch API では処理の開始まで、15〜20分程度かかる場合があります。</p>
+<p>※ アクセスがないときはモデルと計算ノードを停止しているため、しばらく利用がなかったモデルは、即時応答 API と埋め込み API では最初の応答まで、Batch API では処理の開始まで、15〜20分程度かかる場合があります。</p>

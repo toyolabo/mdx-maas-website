@@ -16,6 +16,7 @@
 #   cold_start:           アクセスがないときに停止していて、起動待ちが発生するか（true / false）
 #   max_context_len:      本サービスでの最大コンテキスト長（トークン）
 #   original_context_len: モデル本来のコンテキスト長（トークン）
+#   huggingface:          Hugging Face のリポジトリ ID（org/model）。ページでは https://huggingface.co/ を前置する
 
 - name: llm-jp/llm-jp-4.1-33b-thinking
   description: |
@@ -26,6 +27,7 @@
   cold_start: true
   max_context_len: 32768
   original_context_len: 65536
+  huggingface: llm-jp/llm-jp-4.1-33b-thinking
 
 - name: llm-jp/llm-jp-4.1-33b-thinking-64k
   description: |
@@ -36,6 +38,7 @@
   cold_start: true
   max_context_len: 65536
   original_context_len: 65536
+  huggingface: llm-jp/llm-jp-4.1-33b-thinking
 
 - name: llm-jp/llm-jp-4.1-32b-a3b-thinking
   description: 国立情報学研究所（NII）が開発した最新の日英対応の32B推論モデル
@@ -44,6 +47,7 @@
   cold_start: true
   max_context_len: 65536
   original_context_len: 65536
+  huggingface: llm-jp/llm-jp-4.1-32b-a3b-thinking
 
 - name: llm-jp/llm-jp-4.1-8b-thinking
   description: 国立情報学研究所（NII）が開発した最新の日英対応の8B推論モデル
@@ -52,6 +56,7 @@
   cold_start: true
   max_context_len: 65536
   original_context_len: 65536
+  huggingface: llm-jp/llm-jp-4.1-8b-thinking
 
 - name: openai/gpt-oss-20b
   description: OpenAI が公開した、最大 128k の長コンテキストと推論機能を有したモデル。
@@ -60,6 +65,7 @@
   cold_start: true
   max_context_len: 131072
   original_context_len: 131072
+  huggingface: openai/gpt-oss-20b
 
 - name: google/gemma-4-31B-it-qat-w4a16-ct
   description: Google DeepMindが開発したGemma 4系の31Bパラメータのマルチモーダルモデルを、4bitに量子化したもの（量子化を前提に学習しており、精度の低下が小さい）。テキスト・画像入力とツール呼び出しに対応。
@@ -68,6 +74,7 @@
   cold_start: true
   max_context_len: 131072
   original_context_len: 262144
+  huggingface: google/gemma-4-31B-it-qat-w4a16-ct
 
 - name: Qwen/Qwen3.6-27B-FP8
   description: Alibaba Qwenチームが開発した約27Bパラメータのマルチモーダル言語モデル。テキスト・画像・動画入力に対応し、Thinkingモードによる高度な推論が可能。
@@ -76,6 +83,7 @@
   cold_start: true
   max_context_len: 29792
   original_context_len: 262144
+  huggingface: Qwen/Qwen3.6-27B-FP8
 
 - name: Qwen/Qwen3.8-27B
   description: |
@@ -85,6 +93,7 @@
   cold_start: true
   max_context_len: 210896
   original_context_len: 262144
+  huggingface: Qwen/Qwen3.8-27B
 
 - name: Qwen/Qwen3.8-27B-FP8
   description: |
@@ -94,6 +103,7 @@
   cold_start: true
   max_context_len: 32928
   original_context_len: 262144
+  huggingface: Qwen/Qwen3.8-27B-FP8
 
 - name: deepseek-ai/DeepSeek-OCR-2
   description: DeepSeekが開発した約3BパラメータのOCR特化ビジョン言語モデル。画像からのテキスト抽出・Markdown変換を得意とする。
@@ -102,3 +112,4 @@
   cold_start: true
   max_context_len: 8192
   original_context_len: 8192
+  huggingface: deepseek-ai/DeepSeek-OCR-2

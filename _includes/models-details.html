@@ -20,6 +20,7 @@
   <li>model パラメータに指定する値: <code>{{ m.name | escape }}</code></li>
   <li>対応 API: {{ apis }}</li>
   <li>最大コンテキスト長: {{ context_len }}</li>
+  <li>Hugging Face: <a href="https://huggingface.co/{{ m.huggingface }}" rel="noopener noreferrer">{{ m.huggingface | escape }}</a></li>
   <li>起動待ち: {% if m.cold_start %}あり（しばらく利用がなかった場合、15〜20分程度かかります）{% else %}なし{% endif %}</li>
 </ul>
 {%- endfor %}

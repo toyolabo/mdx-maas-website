@@ -2,7 +2,7 @@
 layout: home
 title: mdx-MaaS ユーザーポータル
 description: 生成AIモデルを安全かつ効率的に活用するための推論基盤 mdx-MaaS のユーザーポータルです。
-last_modified_at: 2026-11-24
+last_modified_at: 2026-11-28
 ---
 
 ## mdx-MaaSについて {#about}

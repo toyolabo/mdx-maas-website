@@ -2,7 +2,7 @@
 layout: page
 title: アップデート履歴
 description: mdx-MaaS のサービスおよび本サイトの更新情報を掲載します。
-last_modified_at: 2026-11-21
+last_modified_at: 2026-11-28
 ---
 
 mdx-MaaS のサービスおよび本サイトの更新情報を掲載します。
@@ -13,6 +13,10 @@ mdx-MaaS のサービスおよび本サイトの更新情報を掲載します�
   ## YYYY年M月D日
   - 更新内容を書く
 -->
+
+## 2026年11月28日
+
+- 新しいモデル **Qwen3-VL-8B-Instruct** を追加しました。即時応答 API とチャットサービスで利用できます。API でモデル名に `Qwen/Qwen3-VL-8B-Instruct` を指定してください。テキスト・画像・動画入力に対応しています。詳細は [利用可能なモデル一覧](models.md) と [Qwen3-VL-8B-Instruct（Hugging Face）](https://huggingface.co/Qwen/Qwen3-VL-8B-Instruct) をご覧ください。
 
 ## 2026年11月21日
 

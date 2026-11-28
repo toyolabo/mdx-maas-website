@@ -13,6 +13,7 @@
 #   description:          モデルの説明（改行はそのままページの改行になる）
 #   chat:                 即時応答 API で使えるか（true / false）
 #   batch:                Batch API で使えるか（true / false）
+#   embeddings:           埋め込み API で使えるか（true / false。省略時は false）
 #   cold_start:           アクセスがないときに停止していて、起動待ちが発生するか（true / false）
 #   max_context_len:      本サービスでの最大コンテキスト長（トークン）
 #   original_context_len: モデル本来のコンテキスト長（トークン）
@@ -124,3 +125,15 @@
   max_context_len: 65536
   original_context_len: 1048576
   huggingface: nvidia/NVIDIA-Nemotron-3.5-Lightning-30B-A3B-BF16
+
+- name: google/embeddinggemma-2
+  description: |
+    Google DeepMind が開発した、テキストを 768 次元のベクトルに変換する埋め込みモデル。100 以上の言語に対応し、意味検索・RAG・分類・クラスタリングなどに使える。1 つの入力は 8,192 トークンまで。
+    埋め込み API 専用で、即時応答 API・Batch API では使えない。このサービスではテキストの入力だけに対応（画像・音声の入力には未対応）。
+  chat: false
+  batch: false
+  embeddings: true
+  cold_start: true
+  max_context_len: 8192
+  original_context_len: 262144
+  huggingface: google/embeddinggemma-2

@@ -15,6 +15,7 @@ mdx-MaaS ポータルサイトのソースです。GitHub Pages（Jekyll / minim
 | `models.md` | 利用可能なモデル一覧 | モデルごとの説明。ユーザーポータル・チャットサービス利用案内・API ドキュメントからリンク |
 | `docs/chat-completions.md` | 即時応答 API（Chat Completions API） | API の使い方。ユーザーポータルの「API エンドポイント」からリンク |
 | `docs/batch.md` | Batch API（バッチ推論） | 同上 |
+| `docs/embeddings.md` | 埋め込み API（Embeddings API） | 同上 |
 | `docs/usage.md` | 使用量確認 API（Usage API） | 同上 |
 
 - `docs/` の API ドキュメントは、以前は GitHub の [mdx-jp/mdx-maas-docs](https://github.com/mdx-jp/mdx-maas-docs) で公開していたものを、このサイトに移したものです。**今後はこのリポジトリの `docs/` を更新してください。** 同じ文章が 2 か所にあると、Google が重複とみなしてどちらか一方しか検索に出さないためです。

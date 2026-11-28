@@ -4,6 +4,7 @@
 {%- if m.chat and m.batch -%}即時応答 API、Batch API
 {%- elsif m.chat -%}即時応答 API
 {%- elsif m.batch -%}Batch API
+{%- elsif m.embeddings -%}埋め込み API
 {%- else -%}-
 {%- endif -%}
 {%- endcapture %}
@@ -19,8 +20,12 @@
 <ul>
   <li>model パラメータに指定する値: <code>{{ m.name | escape }}</code></li>
   <li>対応 API: {{ apis }}</li>
+  {%- if m.max_context_len %}
   <li>最大コンテキスト長: {{ context_len }}</li>
+  {%- endif %}
+  {%- if m.huggingface %}
   <li>Hugging Face: <a href="https://huggingface.co/{{ m.huggingface }}" rel="noopener noreferrer">{{ m.huggingface | escape }}</a></li>
+  {%- endif %}
   <li>起動待ち: {% if m.cold_start %}あり（しばらく利用がなかった場合、15〜20分程度かかります）{% else %}なし{% endif %}</li>
 </ul>
 {%- endfor %}

@@ -9,7 +9,8 @@ mdx-MaaS ポータルサイトのソースです。GitHub Pages（Jekyll / minim
 | ファイル | ページ | 備考 |
 | --- | --- | --- |
 | `index.md` | mdx-MaaS ユーザーポータル（トップ） | サイトのルート。API の利用案内・申請手順・FAQ |
-| `chat.md` | チャットサービス利用案内 | ナビには表示しない（ユーザーポータルの FAQ からのみリンク）。「利用の前提」セクション内に学認ユーザー（東京大学・大阪大学）向けの外部ポータルへの導線あり |
+| `chat.md` | チャットサービス利用案内 | 学認以外のアカウント（mdx Local ID）でチャットを使う方向け。ナビには表示しない（ユーザーポータルの FAQ からのみリンク）。「利用の前提」セクション内に学認ユーザー向けページ（`chat-gakunin.md`）への導線あり |
+| `chat-gakunin.md` | チャットサービス利用案内（学認ユーザー向け） | 学認（東京大学・大阪大学など）でチャットを使う方向け。ナビには表示しない（ユーザーポータルの FAQ と `chat.md` からリンク）。学認ログイン URL は `https://sp.maas.mdx1.jp`（学認以外は `https://local.maas.mdx1.jp`） |
 | `updates.md` | アップデート履歴 | ナビに表示 |
 | `models.md` | 利用可能なモデル一覧 | モデルごとの説明。ユーザーポータル・チャットサービス利用案内・API ドキュメントからリンク |
 | `docs/chat-completions.md` | 即時応答 API（Chat Completions API） | API の使い方。ユーザーポータルの「API エンドポイント」からリンク |
@@ -17,6 +18,7 @@ mdx-MaaS ポータルサイトのソースです。GitHub Pages（Jekyll / minim
 | `docs/usage.md` | 使用量確認 API（Usage API） | 同上 |
 
 - `docs/` の API ドキュメントは、以前は GitHub の [mdx-jp/mdx-maas-docs](https://github.com/mdx-jp/mdx-maas-docs) で公開していたものを、このサイトに移したものです。**今後はこのリポジトリの `docs/` を更新してください。** 同じ文章が 2 か所にあると、Google が重複とみなしてどちらか一方しか検索に出さないためです。
+- `chat-gakunin.md` は、以前 Google Sites で公開していた「mdx MaaS 学認ユーザー向けポータルサイト」（https://sites.google.com/view/mdx-maas/ ）の内容を 2026-11-27 にこのサイトに移したものです。**今後はこのリポジトリの `chat-gakunin.md` を更新してください。** Google Sites 側は本ページへのリンクだけを残すか、非公開にしてください（同上の重複対策）。
 
 - ナビゲーションに表示するページは `_config.yml` の `header_pages` で指定しています。
 - **ページを追加するときは、フロントマターに `description:`（検索結果に出る説明文）を必ず書いてください。** `_config.yml` にはサイト共通の `description` を置いていないため（トップページの `<title>` に連結されてしまうのを避けるため）、書き忘れると検索結果に説明文が出ません。

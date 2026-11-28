@@ -102,3 +102,13 @@
   cold_start: true
   max_context_len: 8192
   original_context_len: 8192
+
+- name: nvidia/NVIDIA-Nemotron-3.5-Lightning-30B-A3B-BF16
+  description: |
+    NVIDIAが開発した総パラメータ約30B（活性約3B）のハイブリッド MoE 言語モデル。推論モードの切り替えとツール呼び出しに対応し、英語・日本語などを含む多言語を扱う。
+    （本サービスではコンテキスト長を64kに制限して提供）
+  chat: true
+  batch: false
+  cold_start: true
+  max_context_len: 65536
+  original_context_len: 1048576

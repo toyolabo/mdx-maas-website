@@ -105,6 +105,16 @@
   original_context_len: 262144
   huggingface: Qwen/Qwen3.8-27B-FP8
 
+- name: Qwen/Qwen3-VL-8B-Instruct
+  description: |
+    Alibaba Qwenチームが開発した約9Bパラメータのビジョン言語モデル。テキスト・画像・動画入力に対応。
+  chat: true
+  batch: false
+  cold_start: true
+  max_context_len: 105264
+  original_context_len: 262144
+  huggingface: Qwen/Qwen3-VL-8B-Instruct
+
 - name: deepseek-ai/DeepSeek-OCR-2
   description: DeepSeekが開発した約3BパラメータのOCR特化ビジョン言語モデル。画像からのテキスト抽出・Markdown変換を得意とする。
   chat: true

@@ -1,7 +1,7 @@
 ---
 layout: page
 title: 利用可能なモデル一覧
-description: mdx-MaaS で利用できる生成AIモデル（LLM-jp-4.1、gpt-oss、Gemma 4、Qwen3.6、Qwen3.8、DeepSeek-OCR-2）の一覧です。モデルごとの説明と、対応している API を掲載しています。
+description: mdx-MaaS で利用できる生成AIモデル（LLM-jp-4.1、gpt-oss、Gemma 4、Qwen3.6、Qwen3.8、Qwen3-VL、DeepSeek-OCR-2）の一覧です。モデルごとの説明と、対応している API を掲載しています。
 last_modified_at: 2026-11-28
 ---
 
